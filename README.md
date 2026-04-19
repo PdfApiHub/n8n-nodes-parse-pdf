@@ -1,37 +1,42 @@
 # n8n-nodes-parse-pdf
 
-> Extract text, tables, and structured data from PDF files using PDF API Hub
+[![NPM Version](https://img.shields.io/npm/v/n8n-nodes-parse-pdf.svg)](https://www.npmjs.com/package/n8n-nodes-parse-pdf)
+[![License](https://img.shields.io/npm/l/n8n-nodes-parse-pdf.svg)](LICENSE.md)
 
-This is an [n8n](https://n8n.io/) community node. It lets you use **[PDF API Hub](https://pdfapihub.com)** in your n8n workflows.
+> Extract text, tables, and structured layout data from any PDF file.
 
-## Prerequisites
+This is an [n8n](https://n8n.io/) community node powered by **[PDF API Hub](https://pdfapihub.com)**.
 
-- **n8n** v1.0.0 or later
-- A **PDF API Hub** API key — [get one free](https://pdfapihub.com)
+---
 
-## Installation
+## 🚀 Install
 
-1. Go to **Settings → Community Nodes**
-2. Select **Install a community node**
-3. Enter `n8n-nodes-parse-pdf`
-4. Agree to the risks and click **Install**
+1. Go to **Settings → Community Nodes** in n8n
+2. Enter `n8n-nodes-parse-pdf`
+3. Click **Install**
 
-## Operations
+## 🔑 Setup
 
-- **Parse PDF** — Extract text, tables, and structured data from PDF files using PDF API Hub
+Sign up at [pdfapihub.com](https://pdfapihub.com) → copy your API key → add to n8n credentials.
 
-## Credentials
+---
 
-You need a PDF API Hub API key to use this node:
+## ✨ Features
 
-1. Sign up at [pdfapihub.com](https://pdfapihub.com)
-2. Copy your API key from the dashboard
-3. In n8n, create new **PDF API Hub API** credentials and paste your key
+| Parameter | Description |
+|-----------|-------------|
+| **Input Type** | URL or Binary file |
+| **Parse Mode** | **Text** (plain text), **Layout** (position-aware), **Tables** (structured rows/columns), **Full** (everything) |
+| **Pages** | `all` or specific ranges like `1-3` |
 
-## Resources
+---
 
-- [PDF API Hub Documentation](https://pdfapihub.com/docs)
-- [n8n Community Nodes Documentation](https://docs.n8n.io/integrations/community-nodes/)
+## 💡 Use Cases
+
+- **Invoice processing** — extract line items and totals from PDF invoices
+- **Data entry automation** — pull structured data from forms
+- **Search indexing** — extract text for full-text search
+- **Report analysis** — parse tables from financial reports into spreadsheets
 
 ## License
 
