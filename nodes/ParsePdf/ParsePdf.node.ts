@@ -11,7 +11,7 @@ export class ParsePdf implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'Parse PDF',
 		name: 'parsePdf',
-		icon: { light: 'file:../../icons/icon.svg', dark: 'file:../../icons/icon.svg' },
+		icon: { light: 'file:../../icons/light.svg', dark: 'file:../../icons/dark.svg' },
 		group: ['transform'],
 		version: 1,
 		description: 'Extract text, tables, and structured data from PDF files using PDF API Hub',
